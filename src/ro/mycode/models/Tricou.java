@@ -18,6 +18,16 @@ public class Tricou extends Produs{
         this.material = material;
     }
 
+    public Tricou(String type, int id, int marime, String firma) {
+        super(type, id);
+        this.marime = marime;
+        this.firma = firma;
+    }
+
+    public Tricou(String firma) {
+        this.firma = firma;
+    }
+
     public int getMarime() {
         return marime;
     }
@@ -42,7 +52,7 @@ public class Tricou extends Produs{
         this.material = material;
     }
 
-    private String descriereTricou(){
+    public String descriereTricou(){
         String text="";
 
         text+="Eu sunt un tricou cu urmatoarele caracteristici:"+"\n";
@@ -54,5 +64,10 @@ public class Tricou extends Produs{
 
         return text;
     }
- 
+
+
+    public void test() {
+        System.out.println("eu sunt test din tricou");
+    }
+
 }

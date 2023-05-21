@@ -59,4 +59,10 @@ public class FaceCare extends Produs{
         this.detalii=split[3];
         this.luniValabilitate=Integer.parseInt(split[4]);
     }
+
+
+    @Override
+    public void test(){
+        System.out.println("eu sunt test din faceCare");
+    }
 }

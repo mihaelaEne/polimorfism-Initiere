@@ -1,6 +1,16 @@
+import ro.mycode.controllers.ProdusController;
+import ro.mycode.models.FaceCare;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+//        ProdusController produsController=new ProdusController();
+//        produsController.load();
+//        produsController.afisareProdus();
+
+
+
+
+
     }
 }

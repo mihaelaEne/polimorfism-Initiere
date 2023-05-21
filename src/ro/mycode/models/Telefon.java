@@ -63,4 +63,7 @@ public class Telefon extends Produs {
     public String toSaveTelefon(){
         return super.toSaveProdus()+","+model+","+culoare+","+pret;
     }
+    public void test(){
+        System.out.println("Eu sunt test din telefon");
+    }
 }

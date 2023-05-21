@@ -44,4 +44,9 @@ public class Produs {
     public String toSaveProdus(){
         return type+","+id;
     }
+
+
+    public void test(){
+        System.out.println("eu sunt test din produs");
+    }
 }
